@@ -1,23 +1,79 @@
-# React-athon
+<h1 align="center">
+	Band-its: School of Code Hackathon Week 8 Project.
+</h1>
+<h2 align="center">
+	View The Website <a href='https://kieran-gill-week8-hackathon-bandits.vercel.app/'>here.</a>
+</h2>
 
-## Task 1 - API Research (20 - 30 mins)
 
-Choose at least one API to fetch from in a full stack React app. This [list](https://apilist.fun) may help. Remember to read the API's documentation and send test requests from Postman to view the data you get back first before deciding it's suitable to use. You can always use the API list we used in the hackathon earlier in the course as well.
+ <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="https://user-images.githubusercontent.com/82081817/185462542-581385fe-420a-4157-94c3-b162ea2a6ad6.PNG" width="100%"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="https://user-images.githubusercontent.com/82081817/185462550-cbca0191-2830-4188-be22-5f5e8a456303.PNG" width="100%" />
+            </td>
+        </tr>
+    </table>
 
-## Task 2 - Ideate and Plan (30 - 60 mins)
 
-- Once you choose an API and test it out, use Disney ideation to come up with an idea of what you want to build. Set a timer for each room (dreamer, realist, and critic).
-- Boil down what your MVP is and what then becomes stretch goals. Break down your idea into its component parts and prioritise your tasks. Use project management software like [Trello](https://trello.com/en) to organize your plan, breaking it down into tasks that you can then treat as tickets for each feature. Base each of these around a [user story](https://www.atlassian.com/agile/project-management/user-stories).
-- Create a component tree with state and behaviour for each component and at least low-fidelity wireframes for your design.
 
-## Task 3 - Build your MVP
+## Project details 
 
-Build the simplest version of your app (just enough features to be useable). Make regular commits as you build, and practice branching off for each component and merging that branch in. Use the React hooks and tools we've looked at over the past weeks where appropriate.
+This was a project that my Week 8 coding partner, [Kieran Gill](https://github.com/KieranWebDev) and I produced in 5 hours using React.
 
-## Stretch Goals
+I am very proud of what we managed to produce in the limited time we had and have therefore decided not to refactor or add to this project, as I wanted to display it as it was at the end of the Hackathon.
 
-Once your MVP is functioning and if you have time left, focus on what features you are going to build next - iterate through your planned stretch goals one by one. Again, make use of feature branching and atomic commits (committing often after each change).
+## Ideation and Design
 
-## Retro
+- We were given a list of APIs to explore and given the limited time frame, we decided that our main priority was to find an API that was reliable, free and offered useful and easy-to-manipulate data. After a bit of digging we decided to use the AudioDB API and create a site based around the data we could get from it. 
 
-You'll be presenting your apps to each other, and each team member should be prepared to present about their app so an end of day wrap-up is a good idea. This is a good time to practice an [agile retrospective](https://www.atlassian.com/team-playbook/plays/retrospective) - leave time before presentations to discuss what you did well today, what you learned, what you might do differently next time, and actions you can take forward into your project next week.
+- We then used Disney Ideation to come up with some ideas of what we could create using the data from the API. We set a timer for each room (Dreamer, Realist, and Critic) to ensure we stayed on track.
+
+- We then created a very simple low-fidelity wireframe using Miro and a component tree. This really helped us to visualise and understand our final goal.
+
+- Our aim was to create a simple site that allowed the user to search for a band or artist and then display information about them on the page.
+
+ <table>
+	    <tr>
+    	    <td style="padding:10px">
+        	    <img src="https://user-images.githubusercontent.com/82081817/185456844-f22bf208-fb77-4513-af8d-aed282b669c5.PNG" width="100%"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="https://user-images.githubusercontent.com/82081817/185456854-a794337f-7850-4ec9-8b3d-dcdcef86bcd0.PNG" width="100%" />
+            </td>
+        </tr>
+         <tr>
+    	    <td style="padding:10px">
+        	    <img src="https://user-images.githubusercontent.com/82081817/185456840-08f6104d-f327-45d3-8fe2-01a11045cc8a.PNG" width="100%"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="https://user-images.githubusercontent.com/82081817/185456849-13843d04-7da3-42f6-b395-d40aee576527.PNG" width="100%"/>
+            </td>
+	</tr>
+    </table>
+
+
+
+## Building the app and challenges.
+
+- At this point we had only been using React for 2 weeks, so some of the React fundamentals such as state, props and UseEffect were still very new to us. Prior to the hackathon, I had been working through [NetNinjas React course](https://www.youtube.com/watch?v=j942wKiXFu8&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d) and some of the concepts I had learned here, such as conditional rendering, were very valuable during the Hackathon. My partner also had a very strong grasp of JS fundamentals, so together we were able to quickly get past any potential blockers we faced. 
+
+- We managed to finish the MVP ahead of schedule and thus we were able to implement two of our stretch goals. The first stretch goal was to add CSS styling and the second was to add a feature that allowed the user to discover a random band by clicking a button.  
+
+- It was fairly easy to implement the randomizer feature, as we were able to simply refactor the UseEffect function we had created for the main search feature and also apply the same CSS stylings to it. 
+
+- I really saw the benefits of pair programming, as my partner and I got on really well and I felt that our skill gaps complimented each other, and thus I feel that we both had learned a lot by the end of the day, as well as feeling proud of what we had achieved.
+
+## Retrospective 
+
+- At the end of the day we had time for a quick retrospective where we reflected on what went well, the hurdles we faced and what we would do if we had more time.  A screenshot of this can be seen below. 
+
+- I feel that our codebase is pretty sloppy and most of the code is in the App.js file and not in separate components. But given the limited time we had, trade-offs had to be made during every hackathon and we decided to focus on the functionality of the app itself. 
+
+- Finally, to finish off the day, we gave a quick 2-minute presentation of our app and ideation process to our peers.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/82081817/185456857-444d98c6-3b1f-4463-a358-204bfdfed4f2.PNG" width="80%" />
+</p>
